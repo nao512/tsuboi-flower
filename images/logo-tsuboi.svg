@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-labelledby="title desc">
+  <title id="title">坪井花店 ロゴ</title>
+  <desc id="desc">やさしい花のモチーフと坪井花店の文字</desc>
+  <rect width="900" height="280" fill="none"/>
+  <g transform="translate(70 140)">
+    <circle cx="0" cy="0" r="10" fill="#d7a5b6"/>
+    <ellipse cx="-20" cy="-18" rx="18" ry="30" transform="rotate(-25 -20 -18)" fill="#f3ced9"/>
+    <ellipse cx="22" cy="-15" rx="18" ry="30" transform="rotate(24 22 -15)" fill="#f8dbe5"/>
+    <ellipse cx="-22" cy="18" rx="18" ry="30" transform="rotate(25 -22 18)" fill="#f7d7df"/>
+    <ellipse cx="20" cy="18" rx="18" ry="30" transform="rotate(-22 20 18)" fill="#f2cad4"/>
+    <circle cx="0" cy="0" r="5" fill="#7b9177"/>
+    <path d="M48,42 C76,36 90,22 102,2" fill="none" stroke="#7b9177" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="84" cy="18" rx="11" ry="19" transform="rotate(-22 84 18)" fill="#bed0bb"/>
+    <ellipse cx="65" cy="30" rx="10" ry="16" transform="rotate(28 65 30)" fill="#d6e4d3"/>
+  </g>
+  <g transform="translate(160 95)">
+    <text x="0" y="78" fill="#536553" font-size="72" font-family="Yu Mincho, Hiragino Mincho ProN, serif" letter-spacing="10">坪井花店</text>
+    <text x="6" y="126" fill="#b78f98" font-size="24" font-family="Georgia, serif" letter-spacing="6">TSUBOI FLOWER SHOP</text>
+    <path d="M0,148 H600" stroke="#d8ddd3" stroke-width="2"/>
+  </g>
+</svg>
