@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f8f6ef">
+<meta name="description" content="岡山県総社市の坪井花店。季節の花束・アレンジメント・暮らしのお花を、やさしく可愛い雰囲気でお届けします。">
+<title>坪井花店 | 花と、やさしい毎日。</title>
+<style>
+:root{
+  --cream:#faf8f1;--paper:#fffdfa;--sage:#7b9177;--sage-dark:#566d55;--sage-soft:#edf2e9;
+  --pink:#f6e6ea;--peach:#fff1ea;--ink:#485447;--sub:#70796e;--line:#e3e8dd;--rose:#c89ba6;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:'Hiragino Kaku Gothic ProN','Yu Gothic','Noto Sans JP',sans-serif;line-height:1.9}
+a{color:inherit}img{max-width:100%;display:block}
+header{position:sticky;top:0;z-index:30;background:rgba(250,248,241,.97);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+.head{max-width:1120px;margin:auto;min-height:84px;padding:10px 22px;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.logo-link{display:flex;align-items:center;text-decoration:none;min-width:0}.logo-img{height:56px;width:auto;display:block}
+.links{display:flex;gap:22px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+.links a{text-decoration:none;font-size:12px;letter-spacing:.08em;white-space:nowrap}
+.links a:hover{color:var(--sage)}
+.hero{min-height:680px;position:relative;display:flex;justify-content:center;align-items:center;overflow:hidden;background:linear-gradient(rgba(54,66,50,.38),rgba(54,66,50,.2)),url('images/bouquet-gallery-mixed.jpg') center center/cover}
+.hero:after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(38,49,37,.25),rgba(255,255,255,0) 45%)}
+.hero-inner{position:relative;z-index:1;text-align:center;color:white;padding:90px 20px;text-shadow:0 2px 12px rgba(0,0,0,.18)}
+.hero-logo-card{margin:0 auto 20px;background:rgba(255,255,255,.90);backdrop-filter:blur(8px);padding:16px 18px;border-radius:24px;display:inline-block;box-shadow:0 10px 28px rgba(0,0,0,.12)}
+.hero-logo{width:min(100%,520px);height:auto}
+.hero h1{font:normal clamp(34px,6.2vw,58px)/1.55 'Yu Mincho','Hiragino Mincho ProN',serif;letter-spacing:.14em;margin:18px 0 10px}
+.hero p{font-size:15px;letter-spacing:.08em;margin:0 auto;max-width:560px}
+.cta{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border-radius:999px;border:1px solid var(--sage-dark);color:var(--sage-dark);padding:11px 30px;min-height:46px;font-size:13px;letter-spacing:.07em;transition:.2s;background:#fff8}
+.cta:hover{background:var(--sage-dark);color:#fff}
+.hero .cta{margin-top:30px;color:#fff;border-color:#fff;background:#ffffff1c}.hero .cta:hover{background:#fff;color:var(--sage-dark)}
+section{padding:88px 23px}.container{max-width:1080px;margin:0 auto}.section-heading{text-align:center;margin-bottom:42px}
+.en{font-family:Georgia,serif;font-size:12px;letter-spacing:.28em;color:var(--sage)}h2{font:normal 34px/1.6 'Yu Mincho','Hiragino Mincho ProN',serif;letter-spacing:.14em;margin:6px 0 0}.flower-divider{text-align:center;color:#c8a59e;font-size:18px;margin:0 0 24px}
+.about{text-align:center}.about p{font-size:15px;line-height:2.55}.about .small{font-size:12px;color:var(--sub)}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.product{background:var(--paper);border-radius:170px 170px 14px 14px;overflow:hidden;text-align:center;box-shadow:0 8px 24px rgba(83,101,81,.08)}.product img{height:300px;width:100%;object-fit:cover}.product .copy{padding:24px 17px 30px}.product h3{font:normal 23px 'Yu Mincho','Hiragino Mincho ProN',serif;margin:0 0 12px}.product p{font-size:13px;margin:0;line-height:2}
+.products{background:var(--sage-soft)}
+.gallery{background:var(--paper)}.gallery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.gallery-card{background:white;border-radius:18px;overflow:hidden;box-shadow:0 8px 22px rgba(83,101,81,.08)}.gallery-card img{width:100%;height:260px;object-fit:cover}.gallery-card .caption{padding:12px 14px 16px;font-size:12px;color:var(--sub)}
+.story{background:var(--pink)}.story-wrap{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center}.story-photo{width:100%;height:530px;object-fit:cover;border-radius:220px 220px 18px 18px;background:#fff}.story .lead{font-family:'Yu Mincho','Hiragino Mincho ProN',serif;font-size:28px;line-height:1.9;letter-spacing:.08em;margin:8px 0 16px}.story p{font-size:14px;line-height:2.4;margin:0 0 12px}
+.promise{background:var(--peach)}.promise-content{display:grid;grid-template-columns:1fr 1fr;gap:54px;align-items:center}.promise-photo{height:380px;width:100%;object-fit:cover;border-radius:190px 190px 12px 12px}.promise h2{font-size:30px}.promise p{font-size:14px;line-height:2.45}
+.instagram{background:linear-gradient(180deg,#fffaf8,#fff)}.insta-wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:34px;align-items:start}.insta-panel{background:#fff;border:1px solid var(--line);border-radius:24px;box-shadow:0 8px 22px rgba(83,101,81,.06);padding:24px}.insta-profile{display:flex;gap:16px;align-items:center;margin-bottom:18px}.insta-avatar{width:68px;height:68px;border-radius:50%;object-fit:cover;border:3px solid #f4dce3}.insta-name{font-weight:700;font-size:18px}.insta-id{font-size:13px;color:var(--sub)}.insta-text{font-size:14px;line-height:2.1;margin-bottom:18px}.insta-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.insta-grid a{display:block;border-radius:16px;overflow:hidden;position:relative}.insta-grid img{width:100%;height:210px;object-fit:cover;transition:transform .25s}.insta-grid a:hover img{transform:scale(1.03)}.insta-badge{position:absolute;left:10px;bottom:10px;background:rgba(255,255,255,.9);padding:6px 10px;border-radius:999px;font-size:11px;color:#6c6c6c}.insta-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.secondary{background:#fff;color:var(--sage-dark)}
+.shops-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px}.shop-main{background:var(--paper);padding:34px;border-radius:16px;box-shadow:0 8px 22px rgba(83,101,81,.06)}.shop-main h3,.other h3{font:normal 26px 'Yu Mincho','Hiragino Mincho ProN',serif;margin:0 0 18px}.shop-main p{font-size:14px}.shop-main .cta{margin-top:12px}.other{padding:28px 8px}.store{border-bottom:1px solid var(--line);padding:13px 0}.store b{font-weight:600;display:block;font-size:15px}.store span{font-size:12px;color:var(--sub)}
+.contact{text-align:center;background:#edf0e9}.contact p{font-size:14px}.contact .cta{margin-top:15px;background:var(--sage-dark);color:white}.contact .cta:hover{background:#405943}.contact .note{margin-top:20px}.phone{font-size:23px;font-weight:bold;text-decoration:none;letter-spacing:.03em}.sns-links{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:14px}.badge{display:inline-flex;align-items:center;justify-content:center;padding:10px 18px;border-radius:999px;background:#fff;border:1px solid var(--line);text-decoration:none;font-size:13px}.note{font-size:11px;color:var(--sub)}
+footer{text-align:center;background:var(--sage-dark);color:white;padding:43px 20px;font-size:12px}.footbrand{font:normal 26px 'Yu Mincho','Hiragino Mincho ProN',serif;letter-spacing:.17em;margin-bottom:6px}.copyright{font:10px Georgia,serif;opacity:.75;margin-top:24px}.leaf{color:#d5beb8}
+@media(max-width:1000px){.insta-wrap,.story-wrap,.promise-content,.shops-grid{grid-template-columns:1fr;gap:24px}.gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.story-photo{height:430px}.promise-photo{height:320px}}
+@media(max-width:750px){.head{display:block;text-align:center;min-height:0;padding:10px 8px 9px}.logo-link{justify-content:center}.logo-img{height:48px;margin:auto}.links{justify-content:center;gap:16px;margin-top:8px}.links a{font-size:11px}.hero{min-height:560px;background-position:center center}.hero-logo-card{padding:12px 12px 8px;border-radius:20px}.hero-logo{max-width:340px}.hero h1{font-size:34px}.hero p{font-size:13px}.hero .eyebrow{font-size:10px}section{padding:66px 20px}.section-heading{margin-bottom:30px}h2{font-size:28px}.cards,.gallery-grid,.insta-grid{grid-template-columns:1fr}.product{max-width:440px;width:100%;margin:auto}.product img{height:310px}.gallery-card img,.insta-grid img{height:300px}.story-photo{height:auto;max-height:none}.story .lead{font-size:24px}.shop-main{padding:27px}.other{padding:15px}.about p{font-size:14px}.insta-avatar{width:56px;height:56px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.cta,.insta-grid img{transition:none}}
+</style>
+</head>
+<body>
+<header>
+  <div class="head">
+    <a class="logo-link" href="#top"><img class="logo-img" src="images/logo-tsuboi.svg" alt="坪井花店"></a>
+    <nav class="links" aria-label="メインメニュー">
+      <a href="#about">お店について</a>
+      <a href="#flowers">お花のご案内</a>
+      <a href="#gallery">ギャラリー</a>
+      <a href="#instagram">Instagram</a>
+      <a href="#shops">店舗情報</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
+  </div>
+</header>
+<main id="top">
+  <div class="hero">
+    <div class="hero-inner">
+      <div class="hero-logo-card"><img class="hero-logo" src="images/logo-tsuboi.svg" alt="坪井花店 ロゴ"></div>
+      <h1>花と、やさしい毎日。</h1>
+      <p>季節のお花と、贈る気持ちに寄り添う花束を。<br>岡山県総社市の坪井花店です。</p>
+      <a class="cta" href="#gallery">花束を見る　↗</a>
+    </div>
+  </div>
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-heading"><span class="en">WELCOME TO OUR FLOWER SHOP</span><h2>坪井花店へようこそ</h2></div>
+      <div class="flower-divider" aria-hidden="true">✿</div>
+      <p>季節の花を、もっと身近に。<br>特別な日の贈り物にも、いつものお部屋にも。<br>花のある時間が、毎日を少しやさしくしてくれますように。<br>岡山県総社市の花屋、坪井花店です。</p>
+      <p class="small">花束・アレンジメント・お祝い・送別・発表会など、用途に合わせてご相談いただけます。</p>
+    </div>
+  </section>
+
+  <section class="products" id="flowers">
+    <div class="container">
+      <div class="section-heading"><span class="en">FLOWERS & GIFTS</span><h2>お花のご案内</h2></div>
+      <div class="cards">
+        <article class="product"><img loading="lazy" src="images/bouquet-red-pink.jpg" alt="赤とピンクの華やかな花束"><div class="copy"><h3>花束</h3><p>お誕生日やお祝い、送別などに。<br>気持ちが伝わる花束をお作りします。</p></div></article>
+        <article class="product"><img loading="lazy" src="images/bouquet-pink-lineup.jpg" alt="並んだピンク系の花束"><div class="copy"><h3>ギフトフラワー</h3><p>可愛らしくやさしい色合いで、<br>贈るシーンに合わせてご提案します。</p></div></article>
+        <article class="product"><img loading="lazy" src="images/bouquet-sunflower.jpg" alt="ひまわり入りの明るい花束"><div class="copy"><h3>季節のお花</h3><p>旬のお花を取り入れた、<br>季節感のある花束も人気です。</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-heading"><span class="en">GALLERY</span><h2>花束ギャラリー</h2></div>
+      <div class="gallery-grid">
+        <article class="gallery-card"><img loading="lazy" src="images/bouquet-red-pink.jpg" alt="赤いバラとピンクのガーベラが入った花束"><div class="caption">華やかな赤×ピンクの花束。お祝いのシーンにもおすすめです。</div></article>
+        <article class="gallery-card"><img loading="lazy" src="images/bouquet-pink-lineup.jpg" alt="ピンク系でそろえた花束の列"><div class="caption">可愛らしいピンク系の花束。やさしい雰囲気の贈り物に。</div></article>
+        <article class="gallery-card"><img loading="lazy" src="images/bouquet-orange-yellow.jpg" alt="おめでとうバルーン入りの黄色い花束"><div class="caption">バルーン入りの元気な花束。特別なお祝いにも対応できます。</div></article>
+        <article class="gallery-card"><img loading="lazy" src="images/bouquet-gallery-mixed.jpg" alt="店内で飾られた複数の花束"><div class="caption">色とりどりの花束。季節の花を取り入れてお作りします。</div></article>
+        <article class="gallery-card"><img loading="lazy" src="images/staff-with-bouquet.jpg" alt="花束を持つスタッフ"><div class="caption">ご用途やご予算に合わせて、ひとつひとつ丁寧にお作りします。</div></article>
+        <article class="gallery-card"><img loading="lazy" src="images/bouquet-sunflower.jpg" alt="ひまわりとオレンジのバラの花束"><div class="caption">明るく元気な印象の花束。夏のお花や発表会ギフトにも人気です。</div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="story">
+    <div class="container story-wrap">
+      <img class="story-photo" loading="lazy" src="images/staff-with-bouquet.jpg" alt="花束を持つスタッフの写真">
+      <div>
+        <span class="en">HANDMADE WITH CARE</span>
+        <div class="lead">贈る人の気持ちに、<br>そっと寄り添うお花を。</div>
+        <p>坪井花店では、ひとつひとつのご注文に合わせて、やさしく丁寧に花束やアレンジメントをお作りしています。</p>
+        <p>「可愛く」「明るく」「大人っぽく」「発表会用に」など、ご希望に合わせたご提案も可能です。お気軽にご相談ください。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="promise">
+    <div class="container promise-content">
+      <img class="promise-photo" loading="lazy" src="images/bouquet-sunflower.jpg" alt="ひまわりを使った季節の花束">
+      <div>
+        <span class="en">A LITTLE FLOWER, A LOT OF JOY</span>
+        <h2>花を贈る日も、<br>花と暮らす日も。</h2>
+        <p>ちょっとした贈り物から特別なお祝いまで。用途や季節に合わせて、彩り豊かなお花をご用意いたします。</p>
+        <p>ご来店前のお問い合わせも歓迎です。お電話やInstagramから、お気軽にご相談ください。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="instagram" id="instagram">
+    <div class="container">
+      <div class="section-heading"><span class="en">FOLLOW US ON INSTAGRAM</span><h2>Instagram</h2></div>
+      <div class="insta-wrap">
+        <div class="insta-panel">
+          <div class="insta-profile">
+            <img class="insta-avatar" src="images/bouquet-red-pink.jpg" alt="坪井花店 Instagram">
+            <div>
+              <div class="insta-name">坪井花店</div>
+              <div class="insta-id">@tsuboihanamise</div>
+            </div>
+          </div>
+          <div class="insta-text">Instagramでは、季節の花束や店内の様子、贈り物におすすめのお花をご紹介しています。最新のお花はぜひInstagramでもご覧ください。</div>
+          <div class="insta-actions">
+            <a class="cta" href="https://www.instagram.com/tsuboihanamise/" target="_blank" rel="noopener noreferrer">Instagramを見る ↗</a>
+            <a class="cta secondary" href="#contact">お問い合わせする</a>
+          </div>
+        </div>
+        <div class="insta-grid">
+          <a href="https://www.instagram.com/tsuboihanamise/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="images/bouquet-red-pink.jpg" alt="Instagram投稿イメージ1"><span class="insta-badge">投稿を見る</span></a>
+          <a href="https://www.instagram.com/tsuboihanamise/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="images/bouquet-pink-lineup.jpg" alt="Instagram投稿イメージ2"><span class="insta-badge">投稿を見る</span></a>
+          <a href="https://www.instagram.com/tsuboihanamise/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="images/bouquet-gallery-mixed.jpg" alt="Instagram投稿イメージ3"><span class="insta-badge">投稿を見る</span></a>
+          <a href="https://www.instagram.com/tsuboihanamise/" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="images/bouquet-sunflower.jpg" alt="Instagram投稿イメージ4"><span class="insta-badge">投稿を見る</span></a>
+        </div>
+      </div>
+      <p class="note" style="text-align:center;margin-top:18px;">※ Instagram欄は公開後もそのまま使えます。さらに本物の投稿を埋め込みたい場合は、個別投稿URLを使って後から追加できます。</p>
+    </div>
+  </section>
+
+  <section id="shops">
+    <div class="container">
+      <div class="section-heading"><span class="en">SHOP INFORMATION</span><h2>店舗のご案内</h2></div>
+      <div class="shops-grid">
+        <div class="shop-main">
+          <h3>坪井花店 本店</h3>
+          <p>〒719-1131<br>岡山県総社市中央2-2-3</p>
+          <p><strong>営業時間</strong><br>月曜日〜土曜日　9:00〜18:30</p>
+          <p><strong>お電話</strong><br><a class="phone" href="tel:0866930926">0866-93-0926</a></p>
+          <a class="cta" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%B2%A1%E5%B1%B1%E7%9C%8C%E7%B7%8F%E7%A4%BE%E5%B8%82%E4%B8%AD%E5%A4%AE2-2-3" target="_blank" rel="noopener noreferrer">Googleマップを見る ↗</a>
+        </div>
+        <div class="other">
+          <h3>その他の売場</h3>
+          <div class="store"><b>真備店</b><span>スーパー内テナント</span></div>
+          <div class="store"><b>矢掛小田店</b><span>スーパー内テナント</span></div>
+          <div class="store"><b>総社東店</b><span>スーパー内 花売場</span></div>
+          <p class="note">※ 各売場の詳細な営業時間・所在地は、必要であれば後から追加できます。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-heading"><span class="en">CONTACT US</span><h2>お問い合わせ</h2></div>
+      <div class="flower-divider" aria-hidden="true">✿</div>
+      <p>花束やアレンジメント、各種お花のご相談は<br>本店までお気軽にお問い合わせください。</p>
+      <p><strong>お電話</strong><br><a class="phone" href="tel:0866930926">0866-93-0926</a></p>
+      <div class="sns-links"><a class="badge" href="https://www.instagram.com/tsuboihanamise/" target="_blank" rel="noopener noreferrer">Instagram @tsuboihanamise ↗</a></div>
+      <a class="cta" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%B2%A1%E5%B1%B1%E7%9C%8C%E7%B7%8F%E7%A4%BE%E5%B8%82%E4%B8%AD%E5%A4%AE2-2-3" target="_blank" rel="noopener noreferrer">本店へのアクセス　↗</a>
+      <p class="note">※ ご予約・ご相談はお電話またはInstagramからどうぞ。</p>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="footbrand">坪井花店 <span class="leaf">✿</span></div>
+  <div>〒719-1131 岡山県総社市中央2-2-3</div>
+  <div>Tel. <a href="tel:0866930926">0866-93-0926</a> ｜ <a href="https://www.instagram.com/tsuboihanamise/" target="_blank" rel="noopener noreferrer">Instagram</a></div>
+  <div class="copyright">© TSUBOI FLOWER SHOP</div>
+</footer>
+</body>
+</html>
